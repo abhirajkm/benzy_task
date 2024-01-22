@@ -244,6 +244,7 @@ class ProfileOptionWidget extends StatelessWidget {
   }
 }
 
+
 class CategoryMenuItem extends StatelessWidget {
   final Item profileOption;
   const CategoryMenuItem({
