@@ -178,6 +178,7 @@ class CategoryListWidget extends StatelessWidget {
               height: 167,
               child: Consumer<HomeProvider>(builder: (context, value, child) {
                 return GridView.builder(
+                  physics: const NeverScrollableScrollPhysics(),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 4),
                   itemCount: value.itemList.length,
